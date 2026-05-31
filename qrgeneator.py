@@ -9,7 +9,7 @@ qr = qrcode.QRCode(
 name = input("enter your name:")
 age = int(input("enter your age:"))
 email = input("enter your email:")
-mobile = input("enter your mobile:") # int() teesesanu, endhukante mobile 10 digits start 0 tho unte error
+mobile = input("enter your mobile:") 
 data = {"Name": name, "Age": age, "Email": email, "Mobile": mobile}
 
 qr.add_data(data)
