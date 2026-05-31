@@ -4,13 +4,13 @@ Python tool to generate QR codes from user details. Built for  quickly capture c
 # Features
 - Takes Name, Age, Email, Mobile as input from user
 - Generates QR code instantly using `qrcode` library
-- Saves output as `qr_code.png` 
+- Saves output as `qrgenerator.png` 
 
 # How to Run This Project
 1. Install required library: `pip install qrcode`
 2. Run the script: `qrgeneator.py`
 3. Enter customer details when prompted
-4. Scan `qr_code.png` to get all details
+4. Scan `qrgenerator.png` to get all details
 
 # Tech Stack
 - Python 3
